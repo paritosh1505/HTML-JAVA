@@ -12,7 +12,7 @@ function onSubmit(e){
     {
         msg.classList.add('error');
         msg.innerHTML='PLEASE ENTER ALL FIELDS';
-        setTimeout(()=>msg.remove() , 3000);
+        setTimeout(()=>msg.remove() , 300);
 
     }
     else{
