@@ -17,7 +17,7 @@ function onSubmit(e){
     }
     else{
         const li = document.createElement('li');
-        console.log(nameInput.value);
+        console.log("##");
         let myObj = {
             nameInput : nameInput.value,
             emailInput : emailInput.value,
