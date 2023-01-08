@@ -12,7 +12,7 @@ function onSubmit(e){
     {
         msg.classList.add('error');
         msg.innerHTML='PLEASE ENTER ALL FIELDS';
-        setTimeout(()=>msg.remove() , 300);
+        setTimeout(()=>msg.remove() , 3000);
 
     }
     else{
@@ -20,6 +20,8 @@ function onSubmit(e){
         localStorage.setItem('nameInput', nameInput.value);
         localStorage.setItem('email', emailInput.value);
         localStorage.setItem('phone number',phone_number.value);
+        console.log("testhello");
+        console.log("sup");
 
     li.appendChild(document.createTextNode(`${nameInput.value}: ${emailInput.value}: ${phone_number.value}`));
     userList.appendChild(li);
